@@ -2,7 +2,7 @@
 
 Hi friends,
    Today I host a small website in aws regarding PowerOfMathCaluclation. The folllowing services are used in aws.
-   1.AWS Amplify 2.Lamda  3.IAM 4.ApiGateway 5.Dynamodb.
+   1.AWS Amplify(used to host webpage) 2.Lamda(used to run code automatically)  3.IAM(used to give permissions) 4.ApiGateway(used to bulid api to invoke lanmda) 5.Dynamodb(used to store results).
    
 Procedure :  
 1.download the attched index.html file which contains wep page code and host it on aws amplify. Copy the url and paste it on new tab. It is your web page.

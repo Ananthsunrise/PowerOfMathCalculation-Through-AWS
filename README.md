@@ -11,3 +11,5 @@ Procedure :
 4.To save the math function results, we need dynamodb table. So please create one table in AWS Dynamodb. Finally copy the arn of table.
 5.We need to give access for lambda to write dynamodb table. Go to your created lambda function- click configuration - click role-click add permission and add inline policy.In that you need to attach our policy code which is attached in this repo. Please paste arn of dynamodb table in that policy code.
 6.Now refresh your web page and make some math calculations.
+
+**Note:** All code that you need are uploades in this repo. Please  refer.
